@@ -18,6 +18,15 @@ LearnPlaywrightBatch2x/
 │   ├── 05_Identifier_Rules.js
 │   ├── 06_Identifier_Part2.js
 │   └── 07_Comments.js
+├── chapter_04_Javascript_Concepts/
+│   ├── 08_Var_Let_Const.js
+│   ├── 09_Function.js
+│   ├── 10_Var_explained.js
+│   ├── 11_let_People_love.js
+│   ├── 12_var_functionscope.js
+│   ├── 13_Let_blockscope.js
+│   ├── 14_Hoisting.js
+│   └── 15_Hoisted_function.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -34,6 +43,12 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 ### Chapter 3: Identifiers & Literals
 - **Identifier Rules**: Valid and invalid naming conventions, different cases (camelCase, PascalCase, snake_case, SCREAMING_SNAKE_CASE, kebab-case), and Hungarian Notation.
 - **Comments**: Single-line and multi-line comment usage in JavaScript.
+
+### Chapter 4: JavaScript Concepts
+- **Var, Let & Const**: Variable declarations and their differences.
+- **Functions**: Function declarations and usage.
+- **Scope**: Function scope (`var`) vs block scope (`let`).
+- **Hoisting**: Variable and function hoisting behavior in JavaScript.
 
 ---
 
