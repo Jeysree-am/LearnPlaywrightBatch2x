@@ -27,6 +27,8 @@ LearnPlaywrightBatch2x/
 │   ├── 13_Let_blockscope.js
 │   ├── 14_Hoisting.js
 │   └── 15_Hoisted_function.js
+├── chapter_05_Literal/
+│   └── 21_literal_all.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -49,6 +51,9 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **Functions**: Function declarations and usage.
 - **Scope**: Function scope (`var`) vs block scope (`let`).
 - **Hoisting**: Variable and function hoisting behavior in JavaScript.
+
+### Chapter 5: Literals
+- **All Literal Types in JavaScript**: String, Template, Number, BigInt, Boolean, Null, Undefined, Array, Object, RegExp, and Symbol literals.
 
 ---
 
