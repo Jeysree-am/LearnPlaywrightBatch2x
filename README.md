@@ -29,6 +29,17 @@ LearnPlaywrightBatch2x/
 │   └── 15_Hoisted_function.js
 ├── chapter_05_Literal/
 │   └── 21_literal_all.js
+├── chapter_06_operator/
+│   ├── 24_operator.js
+│   ├── 25_Arithmetic_op.js
+│   ├── 27_modulus__op.js
+│   ├── 28_Expo_op.js
+│   ├── 29_IQ.js
+│   ├── 30_Comparison_op.js
+│   ├── 31_comparion_Stict_Loose.js
+│   ├── 32_confusing_comparison.js
+│   ├── 33_Logical_op.js
+│   └── 34_String_op.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -54,6 +65,12 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 
 ### Chapter 5: Literals
 - **All Literal Types in JavaScript**: String, Template, Number, BigInt, Boolean, Null, Undefined, Array, Object, RegExp, and Symbol literals.
+
+### Chapter 6: Operators
+- **Arithmetic Operators**: Addition, subtraction, multiplication, division, modulus, and exponentiation.
+- **Comparison Operators**: Loose (`==`) vs strict (`===`) equality and common confusing comparison scenarios.
+- **Logical Operators**: AND, OR, NOT for combining boolean expressions.
+- **String Operators**: Concatenation and string manipulation operations.
 
 ---
 
