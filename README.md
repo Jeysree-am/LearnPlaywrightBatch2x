@@ -39,7 +39,42 @@ LearnPlaywrightBatch2x/
 │   ├── 31_comparion_Stict_Loose.js
 │   ├── 32_confusing_comparison.js
 │   ├── 33_Logical_op.js
-│   └── 34_String_op.js
+│   ├── 34_String_op.js
+│   ├── 35_Ternary_Op.js
+│   ├── 36_Typeof.js
+│   ├── 37_Incre_Decre_OP.js
+│   ├── 38_Null_OP.js
+│   └── 39_IQ_Incre.js
+├── chapter_07_IFelse/
+│   ├── 40_Ifelse.js
+│   ├── 41_Nested_IfElse.js
+│   ├── 42_Real_Nested_Ifelse.js
+│   ├── 43_API_IfElse.js
+│   ├── 44_IQ_Ifelse.js
+│   ├── 45_Ifelse_real.js
+│   ├── 46_IQ.js
+│   └── 47_LeapYear.js
+├── chapter_08_Switch/
+│   ├── 48_switch_Case.js
+│   ├── 49_NoBreak.js
+│   ├── 50_default.js
+│   ├── 51_RealTime.js
+│   ├── 52_Switch_Group.js
+│   ├── 53_IQ,js
+│   ├── 54_IQ2.js
+│   └── 55_IQ3.js
+├── chapter_09_Loops/
+│   ├── 56_ForLoop.js
+│   ├── 57_IQ.js
+│   ├── 58_While.js
+│   ├── 59_Do_While.js
+│   ├── 60_RealTime.js
+│   ├── 61_IQ.js
+│   ├── 62_IQ.js
+│   ├── 63_IQ_Continue.js
+│   ├── 64_IQ.js
+│   ├── 65_Traingle.js
+│   └── 66_FizBuzz.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -71,6 +106,34 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **Comparison Operators**: Loose (`==`) vs strict (`===`) equality and common confusing comparison scenarios.
 - **Logical Operators**: AND, OR, NOT for combining boolean expressions.
 - **String Operators**: Concatenation and string manipulation operations.
+- **Ternary Operator**: Conditional expressions with `? :`.
+- **Typeof Operator**: Checking variable types.
+- **Increment/Decrement Operators**: Pre and post increment/decrement operations.
+- **Nullish Coalescing Operator (`??`)**: Handling null and undefined values.
+
+### Chapter 7: If-Else Statements
+- **Basic If-Else**: Conditional branching in JavaScript.
+- **Nested If-Else**: Multiple levels of conditional checks.
+- **Real-time Examples**: Practical If-Else use cases for API responses and logic building.
+- **IQ Problems**: Logical problem solving using If-Else.
+- **Leap Year Check**: Classic programming exercise.
+
+### Chapter 8: Switch Case
+- **Switch Basics**: Using `switch` for multiple conditional branches.
+- **No-Break Cases**: Fall-through behavior in switch statements.
+- **Default Case**: Handling unexpected values.
+- **Real-time Examples**: Practical switch case applications.
+- **Switch Groups**: Grouping multiple cases together.
+- **IQ Problems**: Logical problem solving using Switch.
+
+### Chapter 9: Loops
+- **For Loop**: Iterating with known bounds.
+- **While Loop**: Iterating with condition-based execution.
+- **Do-While Loop**: Ensuring at least one execution.
+- **Real-time Examples**: Practical loop applications.
+- **Continue/Break**: Controlling loop flow.
+- **Pattern Problems**: Triangle patterns and FizzBuzz classic problems.
+- **IQ Problems**: Logical problem solving using loops.
 
 ---
 
