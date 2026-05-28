@@ -1,0 +1,4 @@
+let nested=[[1,2],[3,4],[5]];
+console.log(nested.flat());
+//Flat-flattens nested Array
+//o/p[ 1, 2, 3, 4, 5 ]

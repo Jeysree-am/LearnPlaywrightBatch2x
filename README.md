@@ -26,9 +26,16 @@ LearnPlaywrightBatch2x/
 │   ├── 12_var_functionscope.js
 │   ├── 13_Let_blockscope.js
 │   ├── 14_Hoisting.js
-│   └── 15_Hoisted_function.js
+│   ├── 15_Hoisted_function.js
+│   ├── 16_let_hoisting.js
+│   ├── 17_let_hoisting_block.js
+│   └── 18_let_const.js
 ├── chapter_05_Literal/
-│   └── 21_literal_all.js
+│   ├── 19_literal.js
+│   ├── 20_null_literal.js
+│   ├── 21_literal_all.js
+│   ├── 22_template_Literal.js
+│   └── 23_Backtik_single_double.js
 ├── chapter_06_operator/
 │   ├── 24_operator.js
 │   ├── 25_Arithmetic_op.js
@@ -60,7 +67,7 @@ LearnPlaywrightBatch2x/
 │   ├── 50_default.js
 │   ├── 51_RealTime.js
 │   ├── 52_Switch_Group.js
-│   ├── 53_IQ,js
+│   ├── 53_IQ.js
 │   ├── 54_IQ2.js
 │   └── 55_IQ3.js
 ├── chapter_09_Loops/
@@ -75,6 +82,26 @@ LearnPlaywrightBatch2x/
 │   ├── 64_IQ.js
 │   ├── 65_Traingle.js
 │   └── 66_FizBuzz.js
+├── chapter_11_Arrays/
+│   ├── 67_Arrays.js
+│   ├── 68_Arrays.js
+│   ├── 69_Arrays.js
+│   ├── 70_Arrayof.js
+│   ├── 71_Array_from.js
+│   ├── 72_Array_Access.js
+│   ├── 73_Array_Adding.js
+│   ├── 74_Array_Remove.js
+│   ├── 75_Array_Splice.js
+│   ├── 76_Real_Example.js
+│   ├── 77_Searching.js
+│   ├── 78_includes.js
+│   ├── 79_find_index.js
+│   ├── 80_Iterate.js
+│   ├── 81_Transform_Array_map.js
+│   ├── 82_Filter.js
+│   ├── 83_reduce.js
+│   ├── 85_flat.js
+│   └── 86_Array_sort.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -97,9 +124,15 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **Functions**: Function declarations and usage.
 - **Scope**: Function scope (`var`) vs block scope (`let`).
 - **Hoisting**: Variable and function hoisting behavior in JavaScript.
+- **Temporal Dead Zone (TDZ)**: Understanding the TDZ for `let` and `const`.
+- **Let vs Const**: Differences between `let` and `const`, especially around reassignment.
 
 ### Chapter 5: Literals
+- **Literal Types Intro**: Basic string, number, boolean, null, undefined, array, and object literals.
+- **Null Literal**: Deep dive into `null` and its behavior with `typeof`.
 - **All Literal Types in JavaScript**: String, Template, Number, BigInt, Boolean, Null, Undefined, Array, Object, RegExp, and Symbol literals.
+- **Template Literals**: Using backticks for multi-line strings and `${}` interpolation.
+- **Quotes vs Backticks**: Difference between single quotes, double quotes, and backticks.
 
 ### Chapter 6: Operators
 - **Arithmetic Operators**: Addition, subtraction, multiplication, division, modulus, and exponentiation.
@@ -134,6 +167,24 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **Continue/Break**: Controlling loop flow.
 - **Pattern Problems**: Triangle patterns and FizzBuzz classic problems.
 - **IQ Problems**: Logical problem solving using loops.
+
+### Chapter 11: Arrays
+- **Array Basics**: Creating arrays using literals and constructors, understanding index and length.
+- **Array.of & Array.from**: Creating arrays from values and iterable objects.
+- **Access & Modify**: Reading elements by index, using `.at()`, and modifying values.
+- **Adding Elements**: `push()` and `unshift()` methods.
+- **Removing Elements**: `pop()` and `shift()` methods.
+- **Splice**: Adding, removing, and replacing elements at specific positions.
+- **Real-time Examples**: Practical array manipulations with browser lists.
+- **Searching**: `indexOf()`, `lastIndexOf()`.
+- **Includes**: Checking element existence with `includes()`.
+- **Find & FindIndex**: `find()`, `findIndex()`, `findLast()`, `findLastIndex()`.
+- **Iteration**: `for`, `for...of`, `for...in`, `forEach()`, and `entries()`.
+- **Map**: Transforming arrays with `map()`.
+- **Filter**: Filtering arrays based on conditions.
+- **Reduce**: Accumulating values to a single result.
+- **Flat**: Flattening nested arrays.
+- **Sort**: Sorting arrays alphabetically and numerically with custom comparators.
 
 ---
 
