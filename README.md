@@ -101,7 +101,25 @@ LearnPlaywrightBatch2x/
 │   ├── 82_Filter.js
 │   ├── 83_reduce.js
 │   ├── 85_flat.js
-│   └── 86_Array_sort.js
+│   ├── 86_Array_sort.js
+│   ├── 87_Array_slicing.js
+│   ├── 88_Concat.js
+│   ├── 89_Arrays_Checking.js
+│   └── 90_Array_Map_Example.js
+├── chapter_12_Functions/
+│   ├── 91_Basic_fn.js
+│   ├── 92_Type1_fn.js
+│   ├── 93_Type2_fn.js
+│   ├── 94_Type3_fn.js
+│   ├── 95_Type4_fn.js
+│   ├── 96_Type4_examples.js
+│   ├── 97_Type3_Real.js
+│   ├── 98_Type2_Real.js
+│   ├── 99_Type1_Real.js
+│   ├── 100_Real_examples.js
+│   ├── 101_Template_literal.js
+│   ├── 102_Fn_Expression.js
+│   └── 103_Arrow_fn.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -185,6 +203,22 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **Reduce**: Accumulating values to a single result.
 - **Flat**: Flattening nested arrays.
 - **Sort**: Sorting arrays alphabetically and numerically with custom comparators.
+- **Slice**: Extracting portions of an array into a new array.
+- **Concat & Spread**: Joining arrays with `concat()` and the spread operator (`...`).
+- **Join**: Combining array elements into a string.
+- **Array Checking**: `Array.isArray()`, `every()`, and `some()`.
+- **Map Examples**: Practical `map()` examples with objects, strings, and status counts.
+
+### Chapter 12: Functions
+- **Basic Functions**: Understanding what functions are and how they work.
+- **Type 1 - No Params, No Return**: Functions without arguments and without a return value.
+- **Type 2 - With Params, No Return**: Functions that take parameters but do not return a value.
+- **Type 3 - No Params, With Return**: Functions that return a value without taking parameters.
+- **Type 4 - With Params, With Return**: Functions that take parameters and return a value.
+- **Real Examples**: Practical examples including login validation, browser launch, URL getters, and ID button generation.
+- **Template Literals in Functions**: Using template literals within function return values.
+- **Function Expressions**: Assigning functions to variables.
+- **Arrow Functions**: Shorter syntax for function expressions and implicit returns.
 
 ---
 
