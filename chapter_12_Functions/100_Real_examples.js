@@ -1,5 +1,5 @@
 function createIdButton(name){
-    return "js-basic-"+name.toLocaleLowerCase().replace(/\s+/g, '-');
+    return "js-basic-"+name.toLowerCase().replace(/\s+/g, '-');
 
 }
 console.log(createIdButton("Submit Button"));

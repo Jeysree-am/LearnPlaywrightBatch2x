@@ -119,7 +119,21 @@ LearnPlaywrightBatch2x/
 │   ├── 100_Real_examples.js
 │   ├── 101_Template_literal.js
 │   ├── 102_Fn_Expression.js
-│   └── 103_Arrow_fn.js
+│   ├── 103_Arrow_fn.js
+│   ├── 104_Arrow_Real.js
+│   ├── 105_IIFE.js
+│   ├── 106_Default_Param.js
+│   ├── 107_IQ.js
+│   ├── 108_Rest_param_Fn.js
+│   ├── 109_IQ.js
+│   ├── 110_Spread_IQ.js
+│   ├── 111_Scope_fn.js
+│   ├── 112_IQ.js
+│   ├── 113_Closure.js
+│   ├── 114_Closure.js
+│   ├── 115_API_Real_closure.js
+│   ├── 116_Highorder_fn.js
+│   └── 117_Pure_fn.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -219,6 +233,18 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **Template Literals in Functions**: Using template literals within function return values.
 - **Function Expressions**: Assigning functions to variables.
 - **Arrow Functions**: Shorter syntax for function expressions and implicit returns.
+- **Arrow Function Real Examples**: Comparing regular, expression, and arrow function styles with status code checks.
+- **IIFE (Immediately Invoked Function Expressions)**: Functions that run automatically upon definition.
+- **Default Parameters**: Setting fallback values for function arguments.
+- **Rest Parameters (`...`)**: Collecting indefinite arguments into an array.
+- **Spread Operator**: Passing array elements as individual function arguments.
+- **Function Scope**: Understanding variable visibility inside and outside functions.
+- **Closure**: Inner functions remembering outer function variables even after the outer function finishes.
+- **Closure Counter Example**: Creating private variables using closures (e.g., `makeCounter`).
+- **Real Closure Example**: API retry tracker using closures for state persistence.
+- **Higher-Order Functions**: Functions that accept or return other functions.
+- **Pure vs Impure Functions**: Predictable functions without side effects vs functions that modify external state.
+- **IQ Problems**: Logical problem solving using functions.
 
 ---
 
