@@ -134,6 +134,35 @@ LearnPlaywrightBatch2x/
 │   ├── 115_API_Real_closure.js
 │   ├── 116_Highorder_fn.js
 │   └── 117_Pure_fn.js
+├── chapter_13_Strings/
+│   ├── 118_Strings.js
+│   ├── 119_Strings_properties.js
+│   ├── 120_Search_Check_Str.js
+│   ├── 121_Substring.js
+│   ├── 122_Transform_Str.js
+│   ├── 123_SC.js
+│   └── javascript_strings_cheatsheet.md
+├── chapter_14_Objects/
+│   ├── 124_Objects.js
+│   ├── 125_Objects2.js
+│   ├── 126_Object_Creation.js
+│   ├── 127_Object_Real.js
+│   ├── 128_Primitive_Ref.js
+│   ├── 129_Obj_examples.js
+│   ├── 130_IQ.js
+│   ├── 131_Object_Fn.js
+│   ├── 132_Obj_Decon.js
+│   ├── 133_Spread.js
+│   ├── 134_Objects_SET_GET.js
+│   ├── 135_IQ.js
+│   ├── 136_Obj_Real.js
+│   └── 137_Let_const_obj.js
+├── chapter_15_2D_array/
+│   ├── 138_2D_Array.js
+│   ├── 139_2D.js
+│   ├── 140_Real.js
+│   ├── 141_2D_Array_fn.js
+│   └── 142_IQ_Right_pattern.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -245,6 +274,31 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **Higher-Order Functions**: Functions that accept or return other functions.
 - **Pure vs Impure Functions**: Predictable functions without side effects vs functions that modify external state.
 - **IQ Problems**: Logical problem solving using functions.
+
+### Chapter 13: Strings
+- **String Basics**: Creating strings with single quotes, double quotes, and backticks.
+- **String Properties**: Understanding `length` and accessing characters by index.
+- **Search & Check**: Methods like `indexOf()`, `includes()`, `startsWith()`, `endsWith()` for searching within strings.
+- **Substring Methods**: `slice()`, `substring()`, `substr()` for extracting portions of strings.
+- **Transform Methods**: `toUpperCase()`, `toLowerCase()`, `trim()`, `replace()`, `split()` for string manipulation.
+- **Cheatsheet**: A comprehensive JavaScript strings cheatsheet in Markdown.
+
+### Chapter 14: Objects
+- **Object Basics**: Creating objects using object literals, constructors, and `new Object()`.
+- **Properties & Methods**: Adding, accessing, modifying, and deleting object properties.
+- **Real-time Examples**: Practical object use cases for storing structured data.
+- **Primitive vs Reference Types**: Understanding how primitives and objects are stored and copied.
+- **Object Functions**: Using objects with functions and the `this` keyword.
+- **Destructuring**: Extracting properties into variables using object destructuring.
+- **Spread Operator**: Merging and cloning objects with the spread operator (`...`).
+- **Getters & Setters**: Using `get` and `set` for controlled property access.
+- **Let & Const with Objects**: How `const` works with objects (reference immutability).
+
+### Chapter 15: 2D Arrays
+- **2D Array Basics**: Creating and accessing multi-dimensional arrays (grid/matrix structure).
+- **Real-time Examples**: Practical 2D array scenarios like grids and tabular data.
+- **2D Arrays with Functions**: Passing and returning 2D arrays from functions.
+- **Pattern Problems**: Printing right-angle triangle patterns using nested loops.
 
 ---
 
