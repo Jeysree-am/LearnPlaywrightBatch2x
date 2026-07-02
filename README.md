@@ -163,6 +163,26 @@ LearnPlaywrightBatch2x/
 │   ├── 140_Real.js
 │   ├── 141_2D_Array_fn.js
 │   └── 142_IQ_Right_pattern.js
+├── chapter_16_Callback/
+│   ├── 143_Callback.js
+│   ├── 144_CB.js
+│   ├── 145_CB_fn.js
+│   ├── 146_PW_CB.js
+│   ├── 147_JS_CB.js
+│   ├── 148_Sync_CB.js
+│   ├── 149_Async_CB.js
+│   ├── 150_CB_Hell.js
+│   ├── 151_CB_Hell_20_Steps.js
+│   ├── 152_CB_Parameters.js
+│   └── 153_CB_Return.js
+├── chapter_17_Promise/
+│   ├── 154_Promise.js
+│   ├── 155_Real_API_Promise.js
+│   ├── 156_Real_API_Promise_Part2.js
+│   ├── 157_finally.js
+│   ├── 158_Call_By_Problem.js
+│   ├── 159_Promise_All.js
+│   └── 160_IQ.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -299,6 +319,23 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **Real-time Examples**: Practical 2D array scenarios like grids and tabular data.
 - **2D Arrays with Functions**: Passing and returning 2D arrays from functions.
 - **Pattern Problems**: Printing right-angle triangle patterns using nested loops.
+
+### Chapter 16: Callbacks
+- **Callback Basics**: Understanding callback functions and how they work in JavaScript.
+- **Synchronous Callbacks**: Callbacks that execute immediately within the parent function.
+- **Asynchronous Callbacks**: Callbacks that execute after an asynchronous operation completes.
+- **Callback Hell**: Deeply nested callbacks leading to unreadable code and how to identify them.
+- **Real-world Examples**: Playwright-related callback patterns and practical async scenarios.
+- **Parameters & Return**: Passing arguments to callbacks and handling return values.
+
+### Chapter 17: Promises
+- **Promise Basics**: Creating promises with `resolve` and `reject`, and consuming them with `.then()` and `.catch()`.
+- **Chaining**: Sequential promise execution using `.then()` chains with value passing.
+- **Error Handling**: Propagating and catching errors in promise chains using `.catch()`.
+- **`.finally()`**: Cleanup actions that run regardless of promise settlement.
+- **`Promise.resolve()` / `Promise.reject()`**: Creating immediately settled promises.
+- **`Promise.all()`**: Waiting for all promises to settle (short-circuits on rejection).
+- **`Promise.allSettled()`**: Waiting for all promises with results for each (never rejects).
 
 ---
 
