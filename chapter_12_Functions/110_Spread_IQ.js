@@ -15,3 +15,4 @@ function hasError(...codes){
     return codes.some(code=>code>=400);
 }
 console.log(hasError(...responses)); //true
+

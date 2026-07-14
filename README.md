@@ -183,6 +183,24 @@ LearnPlaywrightBatch2x/
 │   ├── 158_Call_By_Problem.js
 │   ├── 159_Promise_All.js
 │   └── 160_IQ.js
+├── chapter_18_Async_Await/
+│   ├── 161_Async.js
+│   ├── 162_Async_P2.js
+│   ├── 163_PYODOM.js
+│   ├── 164_Async_EX.js
+│   ├── 165_AA_Parallel.js
+│   ├── 165_AA_Seq.js
+│   ├── 166_IQ.js
+│   └── 167_ACLogin.js
+├── chapter_19_Playwright_Basics/
+│   ├── .gitignore
+│   ├── package.json
+│   ├── playwright.config.ts
+│   └── tests/
+│       ├── codegenttaCart.spec.ts
+│       ├── cura.spec.ts
+│       ├── example.spec.ts
+│       └── ttaCart.spec.ts
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -336,6 +354,22 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **`Promise.resolve()` / `Promise.reject()`**: Creating immediately settled promises.
 - **`Promise.all()`**: Waiting for all promises to settle (short-circuits on rejection).
 - **`Promise.allSettled()`**: Waiting for all promises with results for each (never rejects).
+
+### Chapter 18: Async/Await
+- **Async Basics**: Understanding `async` functions and how they simplify working with promises.
+- **Await Syntax**: Using `await` to pause execution until a promise settles, making asynchronous code read like synchronous code.
+- **Parallel Execution**: Running multiple async operations concurrently with `Promise.all()` vs sequential execution with `await`.
+- **Error Handling**: Using `try/catch` blocks with async/await for cleaner error management.
+- **Real-time Login Example**: Practical async/await application for automating login scenarios.
+
+### Chapter 19: Playwright Basics
+- **Playwright Setup**: Installing Playwright and configuring `playwright.config.ts` with browser projects (Chromium, Firefox, WebKit).
+- **Test Structure**: Writing tests with `test`, `expect`, and the Playwright test runner.
+- **Page Navigation**: Using `page.goto()` to navigate to URLs and `expect(page).toHaveTitle()` to verify page titles.
+- **Locators**: Finding elements using Playwright's locator strategies — `page.locator()`, `getByRole()`, `getByText()` with CSS selectors and data-test attributes.
+- **User Actions**: Simulating real user interactions — `click()`, `fill()` for form inputs, and button clicks.
+- **Assertions**: Verifying element visibility and state with `toBeVisible()` and other Playwright assertions.
+- **TTACart App Testing**: End-to-end tests for the TTACart demo application including login flow, product interactions, and navigation.
 
 ---
 

@@ -16,3 +16,4 @@ nums.sort((a,b)=>a-b);
 console.log(nums);
 nums.sort((a,b)=>b-a);//descending order
 console.log(nums);
+
