@@ -201,6 +201,25 @@ LearnPlaywrightBatch2x/
 │       ├── cura.spec.ts
 │       ├── example.spec.ts
 │       └── ttaCart.spec.ts
+├── chapter_20_Export_Import/
+│   ├── export-vs-export-default.md
+│   ├── logger.js
+│   ├── testutils.js
+│   ├── utils.js
+│   └── EXPORT_IMPORT/
+│       ├── 168_Export_Import.js
+│       ├── 169_use_utils.js
+│       └── 170_Logger.js
+├── chapter_21_Classes_Objects/
+│   ├── 171_Class_Objects.js
+│   ├── 172_Class_Object2.js
+│   ├── 173_Car.js
+│   ├── 174_Real_Browser.js
+│   ├── 175_IQ.js
+│   ├── 176_Private_Public.js
+│   ├── 177_Static.js
+│   ├── 178_Calculator.js
+│   └── 179_Print_Batch.js
 └── LearnPlaywrightBatch2x.code-workspace
 ```
 
@@ -370,6 +389,21 @@ Core JavaScript concepts that form the foundation for writing robust Playwright 
 - **User Actions**: Simulating real user interactions — `click()`, `fill()` for form inputs, and button clicks.
 - **Assertions**: Verifying element visibility and state with `toBeVisible()` and other Playwright assertions.
 - **TTACart App Testing**: End-to-end tests for the TTACart demo application including login flow, product interactions, and navigation.
+
+### Chapter 20: Export & Import
+- **Named vs Default Exports**: Understanding `export` and `export default` with a comparison table and usage examples.
+- **Named Export Patterns**: Using named exports for utility functions and constants (`utils.js`, `testutils.js`).
+- **Default Export Usage**: Exporting a primary function with `export default` (`logger.js`).
+- **Import Aliasing**: Renaming imports with `as` to avoid naming conflicts.
+- **Module Consumption**: Importing and using exports across files with ESM syntax.
+
+### Chapter 21: Classes & Objects
+- **Class Basics**: Defining classes with attributes, methods, and constructors.
+- **Object Instantiation**: Creating objects with `new`, constructor parameters, and instance methods.
+- **Real-time Examples**: Browser launch simulation, test case management, and calculator operations.
+- **Static Members**: Shared properties and methods using the `static` keyword (`Student.batchName`, `Student.display()`).
+- **Private Fields**: Encapsulation with `#` private fields and public getters (`Credentials` class with `#apikey`).
+- **Batch Print Example**: Iterating over an array of Student objects with `forEach()` and printing details with static batch info.
 
 ---
 
